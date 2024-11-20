@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanía Chanka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Artesanía Chanka</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#historia">Nuestra Historia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="banner">
+        <div class="banner-contenido">
+            <h2>Sandalia hechas a mano</h2>
+            <p>Diseñado para caminar con estilo y conford</p>
+            <a href="productos">Descubre nuestra colección</a>
+        </div>
+    </section>
+
+    <section class="valores">
+        <h2>Nuestros Valores</h2>
+        <div class="valores-contenido">
+            <div clas="card-valor">
+                <h3>Materiales Genuinos</h3>
+                <p>Usamos materiales 100% cuero de buena calidad.</p>
+            </div>
+            <div clas="card-valor">
+                <h3>Diseños Únicos</h3>
+                <p>Cada sandalia cuenta con una historia personal.</p>
+            </div>
+            <div clas="card-valor">
+                <h3>Apoyo Local</h3>
+                <p>Impulsamos el trabajo de nuestros artesanos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestra Colección</h2>
+        <div class="productos-contenido">
+            <div class="card-producto">
+                <img src="img/sandalia03.jpg" alt="Sandalia 1" width="200px">
+                <h3>Sandalia Modelo A</h3>
+                <p>S/60.00</p>
+            </div>
+            <div class="card-producto">
+                <img src="img/sandalia04.jpg" alt="Sandalia 2" width="200px">
+                <h3>Sandalia Modelo B</h3>
+                <p>S/65.00</p>
+            </div>
+            <div class="card-producto">
+                <img src="img/sandalia02.jpg" alt="Sandalia 3" width="200px">
+                <h3>Sandalia Modelo C</h3>
+                <p>S/65.00</p>
+            </div>
+        </div>
+    </section>
+        
+    <section id="historia">
+        <h2>Conoce Nuestra Historia</h2>
+        <p>Desde hace generaciones, nuestros artesanos han creado piezas únicas utilizando técnicas tradicionales.</p>
+        <img src="" alt="Artesano trabajando">
+    </section>
+
+    <section id="contacto">
+        <div class="contacto-contenedor">
+            <div class="tienda">
+                <h2>Encuentra Nuestra Tienda</h2>
+                <img src="" alt="">
+            </div>
+            <div class="contacto">
+                <h2>Cóntactanos</h2>
+                <form action="send_form.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sandalias Artesanales. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">WhatsApp</a></li>
+        </ul>
+    </footer>
+
+    
+</body>
+</html>
