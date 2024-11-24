@@ -30,6 +30,11 @@ header nav ul li a {
     font-weight: bold;
 }
 
+header nav ul li a:hover {
+    color: #b1740f;
+}
+
+
 .banner {
     background: url(https://cdn.shopify.com/s/files/1/0020/8538/8370/files/Bledel_Banner.jpg?v=1655294654)
     no-repeat center center/cover; 
@@ -59,3 +64,61 @@ header nav ul li a {
 }
 
 
+/*section nuestros valores*/
+
+.valores {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.valores h2 {
+    margin-bottom: 20px;
+}
+
+.valores-contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-valor {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.card-valor h3 {
+    margin-bottom: 10px;
+}
+
+/*Nuestra colección*/
+
+#productos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#productos h2 {
+    margin-bottom: 20px;
+}
+
+.productos-contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-producto img {
+    width: 300px;
+}
