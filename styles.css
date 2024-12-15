@@ -340,6 +340,11 @@ footer ul li a:hover {
         font-size: 1rem;
     }
 
+    .banner a {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
     /*Sección de valores */
     .valores-contenido {
         flex-direction: column;
