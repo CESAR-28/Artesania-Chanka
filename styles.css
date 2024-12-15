@@ -341,8 +341,10 @@ footer ul li a:hover {
     }
 
     .banner a {
+        display: inline-block;
         font-size: 1rem;
-        padding: 10px;
+        padding: 10px 15px;
+        width: auto;
     }
 
     /*Sección de valores */
